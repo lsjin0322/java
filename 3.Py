@@ -19,7 +19,6 @@ text_area = scrolledtext.ScrolledText(
 text_area.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
 
-
 # 많은 양의 텍스트 추가 
 for i in range(100):
      text_area.insert( tk.END, f"이것은 {i+1}번째 줄입니다.스크롤해서 아래 내용을 확인해보세요!\n")
